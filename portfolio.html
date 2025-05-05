@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Mohamed Amine</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #fff;
+    }
+
+    nav {
+      background: #1e1e1e;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #f5b400;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #f5b400;
+    }
+    
+    .card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 10px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+        }
+        .card iframe {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+        }
+        .card p {
+            color: #d0d0d0;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+    .portfolio {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .portfolio h1 {
+      text-align: center;
+      color: #f5b400;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .item:hover {
+      transform: translateY(-5px);
+    }
+
+    .item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .item p {
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    footer {
+      background: #1e1e1e;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Mohamed Amine</h2>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="portfolio">
+    <h1>My Work</h1>
+    <div class="grid">
+      <div class="item">
+        <img src="agastiya.gif" alt="Project 1">
+        <p>Logo Design and motion</p>
+      </div>
+      <div class="item">
+        <img src="KIKO REAL.png" alt="Project 2">
+        <p>social Media post</p>
+      </div>
+      <div class="item">
+        <img src="image_smq copy.jpg" alt="Project 3">
+        <p>Social Media post</p>
+      </div>
+      <iframe width="300" height="200" 
+      src=https://www.youtube.com/embed/f46U6DuDeyo
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+    
+</iframe>
+<iframe width="300" height="200" 
+      src="https://www.youtube.com/embed/xMTrH7ixCzc"
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+    
+</iframe>
+<iframe width="300" height="200" 
+      src=https://www.youtube.com/embed/aRpUZiQfCFQ
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+    
+</iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Mohamed Amine. All rights reserved.
+  </footer>
+</body>
+</html>

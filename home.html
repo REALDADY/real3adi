@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Designer & Video Editor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #f5b400;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    .profile-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid #f5b400;
+      margin-bottom: 20px;
+    }
+
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .buttons button {
+      background-color: #f5b400;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .buttons button:hover {
+      background-color: #e0a800;
+    }
+
+    .description {
+      max-width: 600px;
+      text-align: center;
+      margin: 20px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohamed Amine</h1>
+    <p>Creative Designer & Video Editor</p>
+  </header>
+
+  <div class="profile-img">
+    <img src="pf.gif" alt="Profile Image" />
+  
+  </div>
+
+  <div class="description">
+    Im passionate about turning ideas into stunning visuals. I specialize in design, video editing, and motion graphics to bring brands to life.
+  </div>
+
+  <div class="buttons">
+    <button onclick="window.location.href='portfolio.html'">View Portfolio</button>
+    <button onclick="window.location.href='contact.html'">Contact Me</button>
+    
+  </div>
+</body>
+</html>
